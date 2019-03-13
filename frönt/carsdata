@@ -1,0 +1,82 @@
+[
+  {
+    "car_id": 2,
+    "license_plate": "ckk-313",
+    "brand": "toyota",
+    "model": "yaris dasd3",
+    "makeyear": 2005,
+    "owner_id": 1,
+    "available": 1,
+    "available_from": "2019-03-08T22:00:00.000Z"
+  },
+  {
+    "car_id": 3,
+    "license_plate": "xxx-123",
+    "brand": "BMW",
+    "model": "x1 sdad",
+    "makeyear": 1999,
+    "owner_id": 2,
+    "available": 1,
+    "available_from": "2019-03-08T22:00:00.000Z"
+  },
+  {
+    "car_id": 4,
+    "license_plate": "ccc-322",
+    "brand": "Audi",
+    "model": "a3 tdi2",
+    "makeyear": 2006,
+    "owner_id": 4,
+    "available": 1,
+    "available_from": "2019-03-08T22:00:00.000Z"
+  },
+  {
+    "car_id": 5,
+    "license_plate": "bbb-313",
+    "brand": "Wolkswagen",
+    "model": "golf 1.2fd",
+    "makeyear": 2000,
+    "owner_id": 5,
+    "available": 1,
+    "available_from": "2019-03-08T22:00:00.000Z"
+  },
+  {
+    "car_id": 6,
+    "license_plate": "aku-313",
+    "brand": "undefined",
+    "model": "samara",
+    "makeyear": 1980,
+    "owner_id": 1,
+    "available": 1,
+    "available_from": "1999-03-01T15:00:00.000Z"
+  },
+  {
+    "car_id": 7,
+    "license_plate": "HEL-666",
+    "brand": "undefined",
+    "model": "samara",
+    "makeyear": 1980,
+    "owner_id": 1,
+    "available": 1,
+    "available_from": "1999-03-01T15:00:00.000Z"
+  },
+  {
+    "car_id": 8,
+    "license_plate": "HEL-667",
+    "brand": "undefined",
+    "model": "samara",
+    "makeyear": 1980,
+    "owner_id": 1,
+    "available": 1,
+    "available_from": "1999-03-01T15:00:00.000Z"
+  },
+  {
+    "car_id": 9,
+    "license_plate": "RMF-666",
+    "brand": "amis-kiesi",
+    "model": "samara",
+    "makeyear": 1980,
+    "owner_id": 1,
+    "available": 1,
+    "available_from": "1999-03-01T15:00:00.000Z"
+  }
+]

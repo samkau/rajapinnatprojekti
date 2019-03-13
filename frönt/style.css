@@ -1,0 +1,124 @@
+html {
+    background-color: #888888;
+}
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+
+#modContent {
+    max-width: 500px;
+    background-color: snow;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    text-align: center;
+}
+.entity {
+    border-top: thin solid lightblue;
+    border-left: thin solid lightblue;
+    border-radius: 6px;
+    padding: 2rem;
+    margin-right: 4rem;
+}
+#upper {
+    background-color: darkgrey;
+    height: 7rem;
+    overflow: auto;
+}
+#left {
+    display: inline-block;
+    background-color: whitesmoke;
+    border: thin solid black;
+    width: 15%;
+    overflow: auto;
+}
+#tablediv {
+    display: inline-block;
+    background-color: whitesmoke;
+    border: thin solid black;
+    width: 80%;
+    float: top;
+}
+#table {
+    width: 95%;
+    border: thin solid black;
+    border-radius: 6px;
+    border-collapse: collapse;
+    margin: 3rem;
+    table-layout: fixed;
+}
+th, td{
+    border: thin solid black;
+    width: 14.29%;
+}
+#search {
+    width: max-content;
+    border: thin solid black;
+    border-radius: 10px;
+    right: 0;
+    margin: 1rem;
+    padding: 0.5rem;
+    background-color: lightblue;
+}
+#tablesearch {
+    width: 90%;
+}
+th {
+    background-color: lightblue;
+}
+td {
+
+}
+#tools {
+    width: 60%;
+    display: inline-block;
+}
+#profile {
+    top: 0.25rem;
+    right: 0.25rem;
+    text-align: right;
+    display: inline-block;
+    width: 24%;
+    border-left: thin solid black;
+    font-size: xx-large;
+}
+.toolbuttons {
+    display: inline-block;
+    padding: 2rem;
+    background-color: lightgreen;
+    border: solid black;
+    border-radius: 10px;
+    font-weight: bold;
+    opacity: 0.6;
+    margin: 5px;
+}
+.tablebuttons {
+    display: inline-block;
+    padding: 2rem;
+    background-color: lightblue;
+    border: solid black;
+    border-radius: 10px;
+    font-weight: bold;
+    margin: 5px;
+}
+#endpoints {
+    padding: 1rem;
+}
+.endpoint {
+    background-color: #eaeaea;
+    padding: 1rem;
+    padding-right: 2rem;
+    margin: 1rem;
+    border-bottom: thin solid black;
+
+}
+
+

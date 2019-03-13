@@ -1,0 +1,32 @@
+{
+  "endpoints": [
+
+      [
+        {
+          "parameter": "license_plate"
+        },
+        {
+          "parameter": "brand"
+        },
+        {
+          "parameter": "model"
+        },
+        {
+          "parameter": "carId"
+        },
+        {
+          "parameter": "makeYear"
+        },
+        {
+          "parameter": "available"
+        },
+        {
+          "parameter": "notAvailable"
+        },
+        {
+          "parameter": "user"
+        }
+      ]
+
+    ]
+}
