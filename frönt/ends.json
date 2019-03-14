@@ -1,7 +1,6 @@
 {
-  "endpoints": [
+  "endpoints":[
 
-      [
         {
           "parameter": "license_plate"
         },
@@ -26,7 +25,5 @@
         {
           "parameter": "user"
         }
-      ]
-
     ]
 }

@@ -22,10 +22,10 @@ var jsonx =   [{
     }];
 getEndpoints();
 searchEvent();
-test();
 function getEndpoints() {
     var xhr = new XMLHttpRequest();
     xhr.open('GET', 'ends.json', true);
+    xhr.setRequestHeader('Content-Type', 'application/json')
     xhr.responseType = 'blob';
     xhr.onload = function(e) {
         if (this.status == 200) {
@@ -43,10 +43,9 @@ function getEndpoints() {
 }
 
 function showEndpoints(ends) {
-
     var endsdiv = document.getElementById('endpoints');
     endsdiv.innerHTML = '';
-    for (var i = 0; i<ends.length;i++) {
+    for (var i = 0; i<ends.length; i++) {
         for (var j =0; j<ends[i].length;j++){
             var point = document.createElement('button');
             point.className = 'endpoint';
@@ -78,18 +77,19 @@ function endsEvents(point) {
         console.log(text);
         console.log(point.innerText);
         text.value = '//:localhost/cars' + point.innerText;
-        url.innerText = '//:localhost/cars' + point.innerText;
     }
 }
 
 function searchEvent() {
     document.getElementById('searchButton').onclick = function () {
-        fetch('url')
-            .then(function(response){
-                return response.json();
-            })
-
-            .then(function(json) {
+        var texturl = document.getElementById('tablesearch').value;
+        url = 'http://localhost:8081/cars' + texturl;
+        console.log('Helllo');
+        fetch(url,{
+          'Access-Control-Allow-Origin': '*'
+        }).then(function(response) {
+                return response.json()
+            }).then(function(json) {
                 var table = document.getElementById('table');
                 for (var i=0; i<json.length; i++) {
                     var row = document.createElement('tr');
@@ -118,7 +118,8 @@ function searchEvent() {
                     row.appendChild(available);
                     row.appendChild(availableFrom);
                     table.appendChild(row);
-            })
+                  }
+              })
     }
 }
 
